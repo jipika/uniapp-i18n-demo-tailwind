@@ -1,5 +1,5 @@
 {
-    "name": "travel",
+    "name": "uniapp-i18n",
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
@@ -13,10 +13,7 @@
     "devDependencies": {
         "@tailwindcss/line-clamp": "^0.4.0",
         "@tailwindcss/typography": "^0.5.2",
-        "axios": "^0.27.2",
-        "colors": "^1.4.0",
         "cross-env": "^7.0.3",
-        "ora": "5.4.0",
         "tailwindcss": "^3.1.2",
         "weapp-tailwindcss-webpack-plugin": "^1.7.0",
         "webpack": "^4.46.0",
