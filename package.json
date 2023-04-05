@@ -5,6 +5,7 @@
     "main": "main.js",
     "scripts": {
         "i18n": "npx i18n generate pages -p ./locale",
+        "i18n:components": "npx i18n generate components -p ./locale",
         "i18n:translate": "npx i18n translate",
         "i18n:clear": "npx i18n clear ./pages",
         "test": "echo \"Error: no test specified\" && exit 1",

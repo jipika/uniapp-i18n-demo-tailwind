@@ -1,23 +1,14 @@
 <!--  -->
 <template>
-    <div>
-        你好,世界
-        {{ time }}
-        <j-card></j-card>
-    </div>
+    <div class="shadow-sm p-4 rounded-xl">我是卡片</div>
 </template>
 
 <script>
-import jCard from "@/components/j-card.vue"
-import { dateFormat } from "@/util/index"
 // import引入的组件需要注入到对象中才能使用
 export default {
-    components: { jCard },
     data() {
         // 这里存放数据
-        return {
-            time: dateFormat(),
-        }
+        return {}
     },
     // 监听属性 类似于data概念
     computed: {},
